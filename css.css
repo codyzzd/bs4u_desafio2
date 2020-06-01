@@ -1,26 +1,39 @@
-/* .div {
-  background-color: rgba(60, 24, 219, 0.5);
-} */
-
-.barratop {
-  height: 60px;
+header,
+footer {
   background-color: #eee;
+  padding: 5px;
+  min-height: 60px;
 }
 
-.queme {
-  border-left: 1px solid #dbdbdb;
+header img,
+.list-group img {
+  height: 50px;
+  margin-right: 10px;
 }
 
-.mainmenu {
-  width: 400px;
+header img {
+  margin-left: 16px;
 }
 
-.conversas {
+main {
   background-color: #e5ddd5;
-  height: 82vh;
-  border-left: 1px solid #dbdbdb;
+  min-height: calc(100vh - 121px);
 }
 
-.inputtext {
-  border-left: 1px solid #dbdbdb;
+header {
+  border-bottom: 1px solid #dbdbdb;
+}
+
+h6 {
+  margin: 0px;
+}
+
+.timeago {
+  color: #999;
+  font-size: 0.8em;
+}
+
+.search {
+  min-height: 30px;
+  background-color: rgba(224, 224, 224, 0.5);
 }
