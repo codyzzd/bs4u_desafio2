@@ -2,14 +2,25 @@
   background-color: rgba(60, 24, 219, 0.5);
 } */
 
-.cinza {
+.barratop {
+  height: 60px;
   background-color: #eee;
 }
 
-.barratop {
-  height: 50px;
+.queme {
+  border-left: 1px solid #dbdbdb;
 }
 
-.contatos {}
+.mainmenu {
+  width: 400px;
+}
 
-.conversas {}
+.conversas {
+  background-color: #e5ddd5;
+  height: 82vh;
+  border-left: 1px solid #dbdbdb;
+}
+
+.inputtext {
+  border-left: 1px solid #dbdbdb;
+}
