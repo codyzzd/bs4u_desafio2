@@ -37,3 +37,18 @@ h6 {
   min-height: 30px;
   background-color: rgba(224, 224, 224, 0.5);
 }
+
+#panel-left {
+  border-right: 1px solid #dddddd;
+}
+
+.list-group-item {
+  border-left: none;
+  border-color: #f8f8f8;
+  border-right: none;
+}
+
+..list-group-item:first-child {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
